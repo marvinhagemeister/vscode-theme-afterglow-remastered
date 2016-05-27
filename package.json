@@ -6,14 +6,14 @@
     "publisher": "marvinhagemeister",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marvinhagemeister/vscode-theme-afterglow.git"
+        "url": "git+https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered.git"
     },
     "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/marvinhagemeister/vscode-theme-afterglow/issues"
+        "url": "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered/issues"
     },
-    "homepage": "https://github.com/marvinhagemeister/vscode-theme-afterglow#readme",
+    "homepage": "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered#readme",
     "engines": {
         "vscode": "^1.0.0"
     },
