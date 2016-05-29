@@ -2,7 +2,7 @@
     "name": "theme-afterglow-remastered",
     "displayName": "Afterglow Remastered",
     "description": "Afterglow remastered theme for VS Code",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "marvinhagemeister",
     "repository": {
         "type": "git",
@@ -28,12 +28,10 @@
         "remastered"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Afterglow Remastered",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Afterglow-Remastered.tmTheme"
-            }
-        ]
+        "themes": [{
+            "label": "Afterglow Remastered",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Afterglow-Remastered.tmTheme"
+        }]
     }
 }
