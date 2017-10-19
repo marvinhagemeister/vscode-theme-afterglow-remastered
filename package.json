@@ -1,39 +1,35 @@
 {
-    "name": "theme-afterglow-remastered",
-    "displayName": "Afterglow Remastered",
-    "description": "Afterglow remastered theme for VS Code",
-    "version": "0.2.0",
-    "publisher": "marvinhagemeister",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered.git"
-    },
-    "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered/issues"
-    },
-    "homepage": "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered#readme",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "icon": "icon.png",
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "vscode",
-        "theme",
-        "afterglow",
-        "remastered"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Afterglow Remastered",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Afterglow-Remastered.tmTheme"
-            }
-        ]
-    }
+  "name": "theme-afterglow-remastered",
+  "displayName": "Afterglow Remastered",
+  "description": "Afterglow remastered theme for VS Code",
+  "version": "0.2.0",
+  "publisher": "marvinhagemeister",
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered.git"
+  },
+  "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered/issues"
+  },
+  "homepage":
+    "https://github.com/marvinhagemeister/vscode-theme-afterglow-remastered#readme",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "icon": "icon.png",
+  "categories": ["Themes"],
+  "keywords": ["vscode", "theme", "afterglow", "remastered"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Afterglow Remastered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Afterglow-Remastered.json"
+      }
+    ]
+  }
 }
