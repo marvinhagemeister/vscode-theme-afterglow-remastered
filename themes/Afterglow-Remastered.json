@@ -1,0 +1,88 @@
+{
+  "author": "Marvin Hagemeister",
+  "name": "Afterglow Remastered",
+  "colors": {
+    "editor.background": "#2E2E2E",
+    "editor.foreground": "#d6d6d6",
+    "editor.selectionBackground": "#5A647E",
+    "editorLineNumber.foreground": "#5a5a5a",
+    "editorCursor.foreground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": { "foreground": "#797979" }
+    },
+    {
+      "name": "Entity Name Type",
+      "scope": ["entity.name.type"],
+      "settings": { "foreground": "#FFFFFF" }
+    },
+    {
+      "name": "Entity Other Inherited Class",
+      "scope": ["entity.other.inherited-class"],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword"],
+      "settings": { "foreground": "#cc7833" }
+    },
+    {
+      "name": "Storage",
+      "scope": ["storage"],
+      "settings": { "foreground": "#ff9834" }
+    },
+    {
+      "name": "Constant",
+      "scope": ["constant"],
+      "settings": { "foreground": "#6c99bb" }
+    },
+    {
+      "name": "Constant Variable",
+      "scope": ["constant.variable"],
+      "settings": { "foreground": "#6c99bb" }
+    },
+    {
+      "name": "Constant Character Escape",
+      "scope": ["constant.character.escape"],
+      "settings": { "foreground": "#a1617a" }
+    },
+    {
+      "name": "Constant Numeric",
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#b4c973" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable"],
+      "settings": { "foreground": "#d0d0ff" }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": { "foreground": "#b4c973" }
+    },
+    {
+      "name": "Support Type",
+      "scope": ["support.type"],
+      "settings": { "foreground": "#6c99bb" }
+    },
+    {
+      "name": "Support Function",
+      "scope": ["support.function"],
+      "settings": { "foreground": "#c45837" }
+    },
+    {
+      "name": "Entity Name Function",
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#ffc66d" }
+    },
+    {
+      "name": "Meta Class",
+      "scope": ["meta.class"],
+      "settings": { "foreground": "#d6d6d6" }
+    }
+  ]
+}
