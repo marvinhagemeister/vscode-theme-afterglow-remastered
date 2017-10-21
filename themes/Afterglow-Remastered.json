@@ -60,6 +60,11 @@
       "settings": { "foreground": "#d0d0ff" }
     },
     {
+      "name": "Variable Parameter",
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
       "name": "String",
       "scope": ["string"],
       "settings": { "foreground": "#b4c973" }
@@ -83,6 +88,71 @@
       "name": "Meta Class",
       "scope": ["meta.class"],
       "settings": { "foreground": "#d6d6d6" }
+    },
+    // General
+    {
+      "name": "Punctuation Definition Bold",
+      "scope": ["punctuation.definition.bold"],
+      "settings": { "foreground": "#c45837", "fontStyle": "bold" }
+    },
+    {
+      "name": "Punctuation Definition Italic",
+      "scope": ["punctuation.definition.italic"],
+      "settings": { "foreground": "#ffc66d", "fontStyle": "italic" }
+    },
+    {
+      "name": "String Other Link",
+      "scope": ["string.other.link"],
+      "settings": { "foreground": "#6c99bb" }
+    },
+    // Markup
+    {
+      "name": "Markup Italic",
+      "scope": ["markup.italic"],
+      "settings": { "foreground": "#ffc66d", "fontStyle": "italic" }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": ["markup.bold"],
+      "settings": { "foreground": "#c45837", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markup Inline",
+      "scope": "markup.inline.raw",
+      "settings": { "foreground": "#b4c973" }
+    },
+    {
+      "name": "Markup Heading",
+      "scope": ["markup.heading"],
+      "settings": { "foreground": "#fffffff", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markup Heading Punctuation Definition Heading",
+      "scope": ["markup.heading punctuation.definition.heading"],
+      "settings": { "foreground": "#6c99bb" }
+    },
+    // Markdown
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
+      "scope": "punctuation.definition.metadata.markdown",
+      "settings": { "foreground": "#797979" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": { "foreground": "#797979" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition String",
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.metadata.markdown"
+      ],
+      "settings": { "foreground": "#797979" }
     }
   ]
 }
