@@ -207,6 +207,12 @@
         "punctuation.definition.metadata.markdown"
       ],
       "settings": { "foreground": "#797979" }
+    },
+    // TypeScript
+    {
+      "name": "Object Property",
+      "scope": ["variable.object.property.ts"],
+      "settings": { "foreground": "#d6d6d6" }
     }
   ]
 }
