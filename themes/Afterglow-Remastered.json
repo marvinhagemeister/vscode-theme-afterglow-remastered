@@ -119,7 +119,18 @@
     },
     {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
-      "scope": "punctuation.separator.key-value.scss",
+      "scope": [
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.scss"
+      ],
+      "settings": { "foreground": "#797979" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+      "scope": [
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.rule.scss"
+      ],
       "settings": { "foreground": "#797979" }
     },
     {
