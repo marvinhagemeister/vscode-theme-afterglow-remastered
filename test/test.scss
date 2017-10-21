@@ -1,0 +1,23 @@
+body {
+  font-family: $font-text;
+  background: $color-footer;
+}
+
+.wrapper {
+  background: $color-white;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.h2,
+.h2 a {
+  color: $color-heading;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  font-size: 1.35rem;
+  line-height: 1.45;
+  font-family: $font-text;
+}
