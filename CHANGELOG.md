@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fix minor css punctuation inconsistency
+
 ## 1.0.0
 
 - Port `tmTheme` to the new `json` configuration for themes
