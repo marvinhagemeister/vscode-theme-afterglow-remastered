@@ -89,6 +89,49 @@
       "scope": ["meta.class"],
       "settings": { "foreground": "#d6d6d6" }
     },
+    // HTML + jsx
+    {
+      "name": "Entity Other Attribute Name",
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#cc7833" }
+    },
+    {
+      "name": "Meta Tag",
+      "scope": ["meta.tag"],
+      "settings": { "foreground": "#ffc66d" }
+    },
+    // JSX brackets
+    // {
+    //   "name": "Punctuation Section Embedded",
+    //   "scope": ["punctuation.section.embedded"],
+    //   "settings": { "foreground": "#c45837" }
+    // },
+    // SASS + CSS
+    {
+      "name": "[VSCODE-CUSTOM] Css Support Constant Value",
+      "scope": "support.constant.property-value.css",
+      "settings": { "foreground": "#b4c973" }
+    },
+    {
+      "name": "Keyword Other Unit",
+      "scope": ["keyword.other.unit"],
+      "settings": { "foreground": "#b4c973" }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
+      "scope": "punctuation.separator.key-value.scss",
+      "settings": { "foreground": "#797979" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable.scss", "variable.css"],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
+      "name": "Entity Name Tag",
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#ffc66d" }
+    },
     // General
     {
       "name": "Punctuation Definition Bold",
