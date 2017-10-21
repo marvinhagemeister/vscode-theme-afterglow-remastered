@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Fix `interface` property coloring in `.ts, .tsx` files.
+
 ## 1.0.1
 
 - Fix minor css punctuation inconsistency
