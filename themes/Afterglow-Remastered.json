@@ -213,6 +213,32 @@
       "name": "Object Property",
       "scope": ["variable.object.property.ts"],
       "settings": { "foreground": "#d6d6d6" }
+    },
+    // Graphql
+    {
+      "name": "GraphQL Support Type",
+      "scope": ["support.type.graphql"],
+      "settings": { "foreground": "#ffffff" }
+    },
+    {
+      "name": "GraphQL Support Type",
+      "scope": ["punctuation.colon.graphql"],
+      "settings": { "foreground": "#cc7833" }
+    },
+    {
+      "name": "GraphQL Operations",
+      "scope": ["punctuation.operation.graphql"],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
+      "name": "GraphQL Keywords",
+      "scope": [
+        "keyword.type.graphql",
+        "keyword.interface.graphql",
+        "meta.type.interface.graphql",
+        "keyword.implements.graphql.RRR"
+      ],
+      "settings": { "foreground": "#ff9834" }
     }
   ]
 }

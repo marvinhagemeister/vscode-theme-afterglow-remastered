@@ -1,0 +1,37 @@
+interface Foo {
+  is_foo: Boolean
+}
+
+interface Goo {
+  is_goo: Boolean
+}
+
+type Bar implements Foo, Goo {
+  is_bar: Boolean
+  is_foo: Boolean
+  is_goo: Boolean
+}
+
+query HeroForEpisode($ep: Episode!) {
+  hero(episode: $ep) {
+    name
+    primaryFunction
+  }
+}
+
+{
+  hero {
+    name
+    # Queries can have comments!
+    friends {
+      name
+    }
+  }
+}
+
+{
+  human(id: "1000") {
+    name
+    height
+  }
+}
