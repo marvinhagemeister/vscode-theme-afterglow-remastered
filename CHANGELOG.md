@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Add support for `.graphql` files
+
 ## 1.0.2
 
 - Fix `interface` property coloring in `.ts, .tsx` files.
