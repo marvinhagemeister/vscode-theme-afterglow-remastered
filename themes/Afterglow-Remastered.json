@@ -221,9 +221,18 @@
       "settings": { "foreground": "#ffffff" }
     },
     {
-      "name": "GraphQL Support Type",
-      "scope": ["punctuation.colon.graphql"],
+      "name": "GraphQL Colon",
+      "scope": [
+        "punctuation.colon.graphql",
+        "punctuation.or.graphql",
+        "punctuation.assignment.graphql"
+      ],
       "settings": { "foreground": "#cc7833" }
+    },
+    {
+      "name": "GraphQL Brace",
+      "scope": ["meta.brace.round.graphql", "meta.brace.square.graphql"],
+      "settings": { "foreground": "#d6d6d6" }
     },
     {
       "name": "GraphQL Operations",
