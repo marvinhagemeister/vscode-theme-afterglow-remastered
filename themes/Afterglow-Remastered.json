@@ -214,6 +214,30 @@
       "scope": ["variable.object.property.ts"],
       "settings": { "foreground": "#d6d6d6" }
     },
+    // Python
+    {
+      "name": "Python function call (",
+      "scope": [
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python"
+      ],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
+      "name": "Python function call",
+      "scope": ["meta.function-call.python", "variable.legacy.builtin.python"],
+      "settings": { "foreground": "#ffc66d" }
+    },
+    {
+      "name": "Python function legacy call",
+      "scope": ["variable.legacy.builtin.python"],
+      "settings": { "foreground": "#c45837" }
+    },
+    {
+      "name": "Python variable",
+      "scope": ["variable.legacy.builtin.python"],
+      "settings": { "foreground": "#d0d0ff" }
+    },
     // Graphql
     {
       "name": "GraphQL Support Type",
