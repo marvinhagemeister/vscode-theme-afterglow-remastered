@@ -237,6 +237,21 @@
       "name": "Python variable",
       "scope": ["variable.legacy.builtin.python"],
       "settings": { "foreground": "#d0d0ff" }
+    // TSX
+    {
+      "name": "TSX Tag",
+      "scope": ["meta.tag.without-attributes.tsx"],
+      "settings": { "foreground": "#ffc66d" }
+    },
+    {
+      "name": "TSX Expression",
+      "scope": ["meta.embedded.expression.tsx"],
+      "settings": { "foreground": "#ffc66d" }
+    },
+    {
+      "name": "TSX Children",
+      "scope": ["meta.jsx.children.tsx"],
+      "settings": { "foreground": "#d6d6d6" }
     },
     // Graphql
     {

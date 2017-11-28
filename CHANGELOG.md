@@ -2,6 +2,7 @@
 
 ## 1.2.0
 
+* Align `.tsx` text highlighting with `.html` files
 * Minor improvements to `.py` files
 
 ## 1.1.1
