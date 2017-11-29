@@ -252,7 +252,7 @@
     {
       "name": "TSX Children",
       "scope": ["meta.jsx.children.tsx"],
-      "settings": { "foreground": "#d6d6d6" }
+      "settings": { "foreground": "#ab8448" }
     },
     // Graphql
     {

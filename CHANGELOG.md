@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.2.0
+## 1.1.2
 
-* Align `.tsx` text highlighting with `.html` files
+* Change `.tsx` text highlighting
 * Minor improvements to `.py` files
 
 ## 1.1.1
