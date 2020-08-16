@@ -97,15 +97,24 @@
     },
     {
       "name": "Meta Tag",
-      "scope": ["meta.tag"],
+      "scope": [
+        "meta.tag",
+        "punctuation.section.embedded.begin.js.jsx",
+        "punctuation.section.embedded.end.js.jsx",
+        "meta.embedded.expression"
+      ],
       "settings": { "foreground": "#ffc66d" }
     },
-    // JSX brackets
-    // {
-    //   "name": "Punctuation Section Embedded",
-    //   "scope": ["punctuation.section.embedded"],
-    //   "settings": { "foreground": "#c45837" }
-    // },
+    {
+      "name": "Variable Property",
+      "scope": ["support.variable.property"],
+      "settings": { "foreground": "#d6d6d6" }
+    },
+    {
+      "name": "Meta JSX Children",
+      "scope": ["meta.jsx.children"],
+      "settings": { "foreground": "#B3B1AF" }
+    },
     // SASS + CSS
     {
       "name": "[VSCODE-CUSTOM] Css Support Constant Value",
